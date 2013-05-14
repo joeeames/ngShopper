@@ -73,7 +73,7 @@
       <file leaf-file-name="cartSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/cartSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="83" selection-start="793" selection-end="793" vertical-scroll-proportion="0.42021924">
+            <state line="26" column="6" selection-start="813" selection-end="813" vertical-scroll-proportion="0.47503045">
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/app/js/catalog.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/config/karma.conf.js" />
-        <option value="$PROJECT_DIR$/test/unit/cartSpec.js" />
         <option value="$PROJECT_DIR$/app/js/cart.js" />
+        <option value="$PROJECT_DIR$/test/unit/cartSpec.js" />
       </list>
     </option>
   </component>
@@ -552,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/cartSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="83" selection-start="793" selection-end="793" vertical-scroll-proportion="0.42021924">
+        <state line="26" column="6" selection-start="813" selection-end="813" vertical-scroll-proportion="0.47503045">
           <folding />
         </state>
       </provider>
