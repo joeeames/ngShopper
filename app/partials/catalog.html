@@ -1,0 +1,41 @@
+<div class="page-header">
+  <h1>Catalog</h1>
+</div>
+
+
+<div class="row">
+
+  <div class="span8">
+
+    <ul class="thumbnails">
+
+      <li ng-repeat="item in items" class="span4" ng-click="cart.addItem(item)">
+        <div class="thumbnail well" style="height:100px" >
+          <h4 class="text-center">{{item.name}}</h4>
+          <p class="text-center">${{item.cost}}</p>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+  <div class="span4">
+    <div class="thumbnail">
+      <h3 class="text-center">Cart</h3>
+
+        <div style="border-bottom: 1px solid #ccc; padding: 4px" ng-repeat="item in cart.items">
+          <h4>{{item.name}}</h4>
+          qty: {{item.quantity}}
+          cost: ${{item.cost}}
+        </div>
+
+        <div style="padding: 4px">
+          <h6>Subtotal: ${{cart.subtotal()}}</h6>
+          <h6>Discount: -${{cart.discount()}}</h6>
+          <h5>Total: ${{cart.total()}}</h5>
+        </div>
+    </div>
+  </div>
+</div>
