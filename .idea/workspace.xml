@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="021b2093-b0cc-4ce5-a4bd-0b4ed8df96e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/cartSpec.js" afterPath="$PROJECT_DIR$/test/unit/cartSpec.js" />
-    </list>
+    <list default="true" id="021b2093-b0cc-4ce5-a4bd-0b4ed8df96e5" name="Default" comment="" />
     <ignored path="ngShopper.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/cartSpec.js" changelist="021b2093-b0cc-4ce5-a4bd-0b4ed8df96e5" time="1368498138946" ignored="false" />
