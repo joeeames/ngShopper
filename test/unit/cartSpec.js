@@ -15,5 +15,12 @@ describe('cart', function() {
       expect(cart.items.length).toEqual(1);
       expect(cart.items[0]).toEqual({id: 3, name: 'diablo III', cost: 24.99, qty: 1});
     }));
+
+    it('should add diablo 3 with qty of 2 when 2 are added', inject(function(cart) {
+      cart.addItem(3, 2);
+      expect(cart.items.length).toEqual(1);
+      expect(cart.items[0]).toEqual({id: 3, name: 'diablo III', cost: 24.99, qty: 2});
+
+    }));
   });
 });
