@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="021b2093-b0cc-4ce5-a4bd-0b4ed8df96e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\app\css\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\app\img\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\app\partials\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\test\unit\controllersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\test\unit\directivesSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\test\unit\filtersSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Presentations\UtahJS2013Conf\ngShopper\test\unit\servicesSpec.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/cartSpec.js" afterPath="$PROJECT_DIR$/test/unit/cartSpec.js" />
     </list>
     <ignored path="ngShopper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +75,7 @@
       <file leaf-file-name="cartSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/cartSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="14" selection-end="55" vertical-scroll-proportion="0.030411448">
+            <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.12164579">
               <folding />
             </state>
           </provider>
@@ -543,7 +533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/cartSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="55" vertical-scroll-proportion="0.030411448">
+        <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.12164579">
           <folding />
         </state>
       </provider>
