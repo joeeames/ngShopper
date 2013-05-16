@@ -24,5 +24,5 @@ describe('cart', function() {
       expect(cart.items[0]).toEqual({id: 3, name: 'diablo III', cost: 24.99, qty: 2});
 
     }));
-  }); 
+  });
 });
