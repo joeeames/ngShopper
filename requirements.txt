@@ -1,8 +1,7 @@
 add takes an itemnumber, and a quantity, looks up id and cost from the catalog
 subtotal() returns  the subtotal
-add updates a discount collection object
-add updates the total which considers customer discount
 add considers bulk discount for over 10 items of any one kind 10% discount
+certain items can be BOGO
 reset blanks out the cart
 submitOrder saves the cart to the server
 
