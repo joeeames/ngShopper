@@ -1,4 +1,4 @@
-add takes an itemnumber, cost and a quantity
+add takes an itemnumber, and a quantity, looks up id and cost from the catalog
 subtotal() returns  the subtotal
 add updates a discount collection object
 add updates the total which considers customer discount
