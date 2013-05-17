@@ -1,6 +1,12 @@
 add takes an itemnumber, and a quantity, looks up id and cost from the catalog
+can add an item multiple times
+clear will clear out an item given an itemnumber
+remove takes an itemnumber and qty and decrements
+remove will not go below 0
+remove will clear the item when qty is 0
 subtotal() returns  the subtotal
-add considers bulk discount for over 10 items of any one kind 10% discount
+discount() will produce a discount for any item with qty of 10 or more
+total() is subtotal plus discount
 certain items can be BOGO
 reset blanks out the cart
 submitOrder saves the cart to the server
