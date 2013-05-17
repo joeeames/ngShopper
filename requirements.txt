@@ -1,21 +1,22 @@
 controller 
+
 click a tile to add 1
 click a clear link on the cart to clear out an item
 
 
 
+cart service
 
 add takes an itemnumber, and a quantity, looks up id and cost from the catalog
 can add an item multiple times
+subtotal() returns  the subtotal
 clear will clear out an item given an itemnumber
 remove takes an itemnumber and qty and decrements
 remove will not go below 0
 remove will clear the item when qty is 0
-subtotal() returns  the subtotal
 discount() will produce a discount for any item with qty of 10 or more
 total() is subtotal plus discount
-certain items can be BOGO
-reset blanks out the cart
+reset empties out the cart
 submitOrder saves the cart to the server
 
 
