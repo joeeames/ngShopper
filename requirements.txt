@@ -14,3 +14,5 @@ submitOrder saves the cart to the server
 
 
 controller 
+click a tile to add 1
+click a clear link on the cart to clear out an item

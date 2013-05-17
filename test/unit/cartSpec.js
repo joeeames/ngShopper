@@ -11,18 +11,21 @@ describe('cart', function() {
   }));
 
   describe('add', function() {
-    it('should add diablo 3 with qty of 1 to the items', inject(function(cart) {
+    it('should add items correctly when the quantity is 1', inject(function(cart) {
       cart.addItem(3, 1);
       expect(cart.items.length).toEqual(1);
       expect(cart.items[0]).toEqual({id: 3, name: 'diablo III', cost: 25, qty: 1});
     }));
 
-    it('should add diablo 3 with qty of 2 when 2 are added', inject(function(cart) {
+    it('should add items correctly when the quantity is greater than 1', inject(function(cart) {
       cart.addItem(3, 2);
       expect(cart.items.length).toEqual(1);
       expect(cart.items[0]).toEqual({id: 3, name: 'diablo III', cost: 25, qty: 2});
-
     }));
+
+    it('should ')
+
+
   });
 
   describe('subtotal', function() {

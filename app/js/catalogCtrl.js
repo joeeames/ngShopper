@@ -6,6 +6,4 @@ angular.module('myApp.controllers').controller('CatalogCtrl', function($scope, c
 
   $scope.cart = cart;
 
-
-
 });
