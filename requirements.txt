@@ -1,3 +1,10 @@
+controller 
+click a tile to add 1
+click a clear link on the cart to clear out an item
+
+
+
+
 add takes an itemnumber, and a quantity, looks up id and cost from the catalog
 can add an item multiple times
 clear will clear out an item given an itemnumber
@@ -13,6 +20,3 @@ submitOrder saves the cart to the server
 
 
 
-controller 
-click a tile to add 1
-click a clear link on the cart to clear out an item
