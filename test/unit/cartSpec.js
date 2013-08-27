@@ -6,14 +6,14 @@ describe('cart', function() {
   var d3 = {id: 3, name: 'diablo III', cost: 25};
 
   var mockOrderDiscount = sinon.stub({calculateDiscount: function() {}});
-  var mockOrderService = sinon.stub({saveOrder: function() {}});
+  var mockOrderRepository = sinon.stub({saveOrder: function() {}});
 
-  beforeEach(module('myApp.services'));
+  beforeEach(module('ngShopper'));
 
   beforeEach(module(function($provide) {
     $provide.value('catalog', {items: [bio, skyrim, d3]})
     $provide.value('orderDiscount', mockOrderDiscount);
-    $provide.value('orderService', mockOrderService);
+    $provide.value('orderRepository', mockOrderRepository);
   }));
 
   describe('add', function() {
@@ -134,7 +134,7 @@ describe('cart', function() {
       cart.add(1, 4);
       cart.add(2, 4);
       cart.submitOrder();
-      expect(mockOrderService.saveOrder.calledWith(cart.items)).toBe(true);
+      expect(mockOrderRepository.saveOrder.calledWith(cart.items)).toBe(true);
     }));
   })
 

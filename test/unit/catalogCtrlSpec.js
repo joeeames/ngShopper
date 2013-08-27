@@ -3,8 +3,7 @@
 describe('catalogCtrl', function() {
   var ctrlr, scope;
 
-  beforeEach(module('myApp.controllers'));
-  beforeEach(module('myApp.services'));
+  beforeEach(module('ngShopper'));
 
   beforeEach(inject(function($controller, $rootScope) {
     ctrlr = $controller;

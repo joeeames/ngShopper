@@ -66,7 +66,7 @@ angular.module('ngShopper').service('cart', function(catalog, orderDiscount, ord
     },
 
     submitOrder: function() {
-      orderService.saveOrder(this.items);
+      orderRepository.saveOrder(this.items);
     }
 
   }

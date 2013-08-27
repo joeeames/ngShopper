@@ -9,11 +9,8 @@
 
     <ul class="thumbnails">
 
-      <li ng-repeat="item in items" class="span4" ng-click="cart.addItem(item)">
-        <div class="thumbnail well" style="height:100px" >
-          <h4 class="text-center">{{item.name}}</h4>
-          <p class="text-center">${{item.cost}}</p>
-        </div>
+      <li ng-repeat="item in items" class="span4">
+        <game-tile item="item" tile-click="addGameToCart(item)"></game-tile>
       </li>
 
     </ul>
@@ -27,7 +24,7 @@
 
         <div style="border-bottom: 1px solid #ccc; padding: 4px" ng-repeat="item in cart.items">
           <h4>{{item.name}}</h4>
-          qty: {{item.quantity}}
+          qty: {{item.qty}}
           cost: ${{item.cost}}
         </div>
 

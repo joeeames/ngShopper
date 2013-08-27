@@ -1,20 +1,20 @@
 module.exports = function(config) {
   config.set({
-    basePath: '../',
+    basePath: '../app',
     frameworks: ['jasmine'],
     files: [
-      'app/lib/underscore.js',
-      'app/lib/angular/angular.js',
-      'app/lib/angular/angular-*.js',
-      'test/lib/angular/angular-mocks.js',
-      'test/lib/sinon-1.7.1.js',
-      'app/js/controllers.js',
-      'app/js/services.js',
-      'app/js/**/*.js',
-      'test/unit/**/*.js'
+      'lib/jquery.js',
+      'lib/underscore.js',
+      'lib/angular/angular.js',
+      'lib/angular/angular-*.js',
+      '../test/lib/angular/angular-mocks.js',
+      '../test/lib/sinon-1.7.1.js',
+      'js/**/*.js',
+      'partials/gameTile.html',
+      '../test/unit/**/*.js'
     ],
     preprocessors: {
-
+      'partials/gameTile.html': 'html2js'
     },
     reporters: ['progress'],
     port: 9876,
