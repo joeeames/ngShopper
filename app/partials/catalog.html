@@ -10,7 +10,10 @@
     <ul class="thumbnails">
 
       <li ng-repeat="item in items" class="span4">
-        <game-tile item="item" tile-click="addGameToCart(item)"></game-tile>
+        <div class="thumbnail well" style="height:100px" ng-click="" >
+          <h4 class="text-center">{{item.name}}</h4>
+          <p class="text-center">${{item.cost}}</p>
+        </div>
       </li>
 
     </ul>

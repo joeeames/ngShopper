@@ -9,23 +9,12 @@ describe('gameTile', function() {
   beforeEach(inject(function($compile, $rootScope) {
     // set up scope
     var scope = $rootScope;
-    scope.item = {name: 'Some Game', cost: '9.99'};
-    clickHandlerStub = sinon.stub();
-    scope.clickHandler = clickHandlerStub;
 
     // create and compile directive
-    el = angular.element('<game-tile item="item" tile-click="clickHandler()"></game-tile>');
+    el = angular.element('<game-tile></game-tile>');
     $compile(el)(scope);
     scope.$digest();
-    console.log(el[0].outerHTML);
   }));
 
-  it('should bind the data', function() {
-    expect(el.text()).toContain('Some Game');
-  });
 
-  it('should bind to the scope\'s event', function() {
-    el.click();
-    expect(clickHandlerStub.called).toBe(true);
-  });
 });
