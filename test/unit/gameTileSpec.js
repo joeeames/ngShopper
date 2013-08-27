@@ -26,7 +26,6 @@ describe('gameTile', function() {
 
   it('should bind to the scope\'s event', function() {
     el.click();
-//    this.scope.$digest();
-//    expect(this.scope.clickHandler.called).toBe(true);
+    expect(clickHandlerStub.called).toBe(true);
   });
 });
