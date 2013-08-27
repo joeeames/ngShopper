@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.services').service('cart', function(catalog, orderDiscount, orderService) {
+angular.module('ngShopper').service('cart', function(catalog, orderDiscount, orderRepository) {
   return {
     items: [],
     add: function(id, qty) {

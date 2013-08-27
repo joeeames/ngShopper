@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.services').service('catalog', function() {
+angular.module('ngShopper').service('catalog', function() {
   return {
     items: [
       {id: 1, name: 'Diablo 3', cost: 29.99},
