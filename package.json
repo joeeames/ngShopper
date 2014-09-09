@@ -1,15 +1,11 @@
 {
-"name": "directive-testing",
-"version": "0.0.0",
-"description": "An example of testing AngularJS directives",
-"main": "",
-"author": "Joe Eames",
-"license": "MIT",
-"devDependencies": {
-	"karma": "~0.10",
-	"karma-jasmine": "*",
-	"karma-chrome-launcher": "*",
-	"karma-firefox-launcher": "*",
-	"karma-ng-html2js-preprocessor": "~0.1"
-	}
+  "name": "directive-testing",
+  "version": "0.0.0",
+  "description": "An example of testing AngularJS",
+  "main": "",
+  "author": "Joe Eames",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.23"
+  }
 }
